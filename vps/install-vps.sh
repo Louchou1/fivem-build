@@ -39,7 +39,7 @@ printf "${CYAN} Démarrage de l'installation des packages sur le serveur !"
     apt install bash curl wget nload htop sudo neofetch -y
     cd
     rm .bashrc
-    wget https://raw.githubusercontent.com/null/vps/.bashrc
+    wget https://raw.githubusercontent.com/Louchou1/fivem-build/refs/heads/main/vps/.bashrc
     sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config;systemctl restart ssh;systemctl restart sshd
 
     printf "${NC}\\n"   
