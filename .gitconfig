@@ -1,0 +1,51 @@
+[core]
+    editor = code --wait
+    autocrlf = input
+
+[init]
+    defaultBranch = main
+
+[commit]
+    template = .gitmessage
+    verbose = true
+
+[push]
+    default = simple
+    followTags = true
+
+[pull]
+    rebase = false
+
+[merge]
+    ff = false
+
+[rebase]
+    autoStash = true
+
+[help]
+    autocorrect = 1
+
+[color]
+    ui = auto
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    ca = commit -a
+    cm = commit -m
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
+    lg = log --oneline --graph --decorate --all
+    ll = log --oneline --graph --decorate
+
+[user]
+    # Configurez votre nom et email ici
+    # name = Votre Nom
+    # email = votre.email@example.com
+
+[i18n]
+    commitEncoding = utf-8
+    logOutputEncoding = utf-8 

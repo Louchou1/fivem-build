@@ -1,0 +1,28 @@
+# FiveM Build - Commit Message Template
+
+# Type of change:
+# - feat: A new feature
+# - fix: A bug fix
+# - docs: Documentation only changes
+# - style: Changes that do not affect the meaning of the code (white-space, formatting, etc)
+# - refactor: A code change that neither fixes a bug nor adds a feature
+# - perf: A code change that improves performance
+# - test: Adding missing tests or correcting existing tests
+# - chore: Changes to the build process or auxiliary tools
+
+# Subject line (50 chars or less)
+# Use imperative mood: "add" not "added" nor "adds"
+
+# Body (optional)
+# Wrap at 72 characters. Use imperative mood: "change" not "changed" nor "changes"
+
+# Footer (optional)
+# Reference issues this commit addresses
+
+# Example:
+# feat: add VPS installation script for FiveM server
+# 
+# Add comprehensive installation script for setting up FiveM server
+# on Debian/Ubuntu VPS with all required packages and configurations.
+# 
+# Closes #123 
