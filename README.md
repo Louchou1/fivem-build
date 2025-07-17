@@ -12,5 +12,5 @@ bash <(wget -O - 'https://raw.githubusercontent.com/null/fivem.sh')
 
 # Installation d'un server.cfg (Debian, Ubuntu) / Installing a server.cfg (Debian, Ubuntu)
 ```
-wget https://raw.githubusercontent.com/null/server.cfg
+wget https://raw.githubusercontent.com/Louchou1/fivem-build/refs/heads/main/fivem/server.cfg
 ```
