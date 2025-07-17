@@ -7,7 +7,7 @@ bash <(wget -O - 'https://raw.githubusercontent.com/Louchou1/fivem-build/57a7d81
 
 # Installation d'un VPS Linux pour FiveM / Installing a Linux VPS for FiveM
 ```
-bash <(wget -O - 'https://raw.githubusercontent.com/null/fivem.sh')
+bash <(wget -O - '')
 ```
 
 # Installation d'un server.cfg (Debian, Ubuntu) / Installing a server.cfg (Debian, Ubuntu)
